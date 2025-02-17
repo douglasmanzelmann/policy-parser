@@ -1,5 +1,5 @@
 {
-  "name": "media_processing",
+  "name": "@policy-parser/media-processing",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -14,9 +14,8 @@
     "@types/node": "^22.13.1"
   },
   "dependencies": {
-    "@policy-parser/core": "workspace:*",
     "effect": "^3.13.1",
     "file-type": "^20.1.0",
-    "sst": "^3.9.5"
+    "@policy-parser/core": "workspace:*"
   }
 }

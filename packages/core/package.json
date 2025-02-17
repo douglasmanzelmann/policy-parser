@@ -18,10 +18,7 @@
     "sst": "^3.9.5"
   },
   "exports": {
-    "./*": [
-      "./src/index.ts",
-      "./src/*/index.ts"
-    ]
+    "./*": "./src/*.ts"
   },
   "devDependencies": {
     "tsup": "^8.3.6"

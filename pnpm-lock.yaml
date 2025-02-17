@@ -155,9 +155,6 @@ importers:
       file-type:
         specifier: ^20.1.0
         version: 20.1.0
-      sst:
-        specifier: ^3.9.5
-        version: 3.9.5
     devDependencies:
       '@types/aws-lambda':
         specifier: ^8.10.147
