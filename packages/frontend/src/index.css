@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*--color-primary: #334155;  !* Darker background for buttons *!*/
+  /*--color-primary-content: #ffffff;  !* White text *!*/
+  /*--color-secondary: rgba(255, 255, 255, 0.8);*/
+  /*--color-secondary-content: #334155;*/
+  /*--color-accent: rgba(255, 255, 255, 0.9);*/
+  /*--color-base-100: rgba(255, 255, 255, 0.95);*/
+  /*--color-base-content: #334155;*/
+
+  --color-base-100: #FFFFFF;  /* Slightly creamy white */
+  --color-primary: #6b4423;    /* Deep brown */
+  --color-primary-content: #ffffff;
+  --color-secondary: #8b5e3c;  /* Medium warm brown */
+  --color-secondary-content: #ffffff;
+  --color-accent: #a67b5b;     /* Lighter warm brown */
+  --color-base-content: #2c1810;  /* Very dark brown for text */
+}
+
+a {
+  font-weight: 500;
+  color: #000000;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #39393a;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url('../src/assets/background.webp');
+  background-color: rgba(255, 255, 255, 0.7);  /* Adjust opacity here */
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  /*padding: 0.6em 1.2em;*/
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  /*background-color: #1a1a1a;*/
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #39393a;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #39393a;
+  }
+  /*button {*/
+  /*  background-color: #f9f9f9;*/
+  /*}*/
+}
