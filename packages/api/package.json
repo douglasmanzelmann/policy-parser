@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "@policy-parser/api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hono": "^4.6.20",
-    "sst": "^3.9.5"
+    "hono": "^4.6.20"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.147",

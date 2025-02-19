@@ -6,15 +6,5 @@
     "declaration": true,
     "outDir": "./dist",
     "moduleResolution": "Bundler",
-    "lib": [
-      "DOM",
-      "ESNext"
-    ]
-  },
-  "include": [
-    "./src"
-  ],
-  "exclude": [
-    "./node_modules"
-  ]
+  }
 }

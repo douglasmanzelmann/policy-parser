@@ -1,8 +1,7 @@
 {
-  "name": "policy-parser-v2",
+  "name": "@policy-parser/root",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "AWS_PROFILE=doug sst dev"
   },
